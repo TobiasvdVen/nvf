@@ -1,5 +1,18 @@
 {
   "pins": {
+"presenterm": {
+    "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Piotr1215",
+        "repo": "presenterm.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "610ad9e44abbcff3fe41c71f14e42622b4f9a6f7",
+      "url": "https://github.com/Piotr1215/presenterm.nvim/archive/610ad9e44abbcff3fe41c71f14e42622b4f9a6f7.tar.gz",
+      "hash": "sha256-baesy0w/qFaHDwLh21DEjcAgl90tn4nRgCvrVK7HU1o="
+    },
     "aerial-nvim": {
       "type": "Git",
       "repository": {
