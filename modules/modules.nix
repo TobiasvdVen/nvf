@@ -30,6 +30,7 @@
       "lsp"
       "mini"
       "minimap"
+      "presenterm"
       "notes"
       "projects"
       "repl"
