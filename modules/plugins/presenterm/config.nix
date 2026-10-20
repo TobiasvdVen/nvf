@@ -1,5 +1,6 @@
 {
   config,
+  pkgs,
   lib,
   ...
 }: let
@@ -11,6 +12,7 @@
 in {
   vim = mkIf cfg.enable {
     startPlugins = ["presenterm"];
+    extraPackages = [pkgs.presenterm];
 
     pluginRC.presenterm = entryAnywhere ''
       require("presenterm").setup(${toLuaObject cfg.setupOpts})
